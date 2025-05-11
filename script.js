@@ -30,3 +30,5 @@ document.querySelectorAll('.nav-links a').forEach(link => {
         });
     });
 });
+
+document.getElementById('copyright').innerText = `© ${new Date().getFullYear()} Span Healthcare. All rights reserved.`;
